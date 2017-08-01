@@ -31,12 +31,22 @@ app.use('/special/', (req, res, next) => {
     return next();
 })
 app.use('/', routes(io));
-// app.get('/:params?', (req, res) => {
-//     // console.log(req.params);
-//     const people = [{name: 'Full'}, {name: 'Stacker'}, {name: 'Son'}, {name: 'potato'}];
-//     res.render( 'index', {title: 'Hall of Fame', people: people} );
-//     // res.json('hi')
-// })
+
+
+
+
+
+app.get('/:params?', (req, res) => {
+    // console.log(req.params);
+    const people = [{name: 'Full'}, {name: 'Stacker'}, {name: 'Son'}, {name: 'potato'}];
+    res.render( 'index', {title: 'Hall of Fame', people: people} );
+    // res.json('hi')
+})
+
+
+
+
+
 
 app.use(function (req, res, next) {
     blog(req.statusCode)

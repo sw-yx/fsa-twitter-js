@@ -12,13 +12,15 @@
       100 followers
       {% if showForm %}
         <form action="/tweets" method="POST">
-          <label for="name_field">Name:</label>
-          <input name="name" type="text" id="name_field" value="{{username}}"/>
+          <div class="form-group">
+            <label for="name_field">Name:</label>
+            <input name="name" type="text" class="form-control" id="name_field" value="{{username}}"/>
 
-          <label for="text_field">Text:</label>
-          <input name="text" type="text" id="text_field" style="width: 350px;" />
+            <label for="text_field">Text:</label>
+            <input name="text" type="text" class="form-control" id="text_field" />
 
-          <input type="submit" value="Submit" />
+            <input type="submit" class="btn btn-primary" value="Submit" />
+          </div>
         </form>
       {% endif %}
     </div>
