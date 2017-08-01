@@ -1,3 +1,9 @@
+This app is deployed at <https://swyx-twitterjs.herokuapp.com/>
+
+Below are conclusions from FSA
+
+---
+
 #Review
 
 We've seen some more robust use of server-side page generation in this workshop using Express (running on Node.js). Concepts and techs covered include:

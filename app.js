@@ -18,8 +18,8 @@ app.set('view engine', 'html'); // have res.render work with html files
 app.engine('html', nunjucks.render); // when giving html files to res.render, tell it to use nunjucks
 nunjucks.configure('views', { noCache: true }); // point nunjucks to the proper directory for templates
 
-const myport = process.env.PORT | 3000;
-const server = app.listen(myport, () => console.log('listening on myport'))
+const myport = process.env.PORT || 3000;
+const server = app.listen(myport, () => console.log('listening on ' + myport))
 const io = require('socket.io').listen(server);
 
 // const io = socketio.listen(app);
