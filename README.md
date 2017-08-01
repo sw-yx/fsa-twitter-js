@@ -4,7 +4,7 @@ Below are conclusions from FSA
 
 ---
 
-#Review
+# Review
 
 We've seen some more robust use of server-side page generation in this workshop using Express (running on Node.js). Concepts and techs covered include:
 
@@ -33,11 +33,11 @@ parsing HTTP request bodies with body-parsing middleware (req.body)
 Reading query strings (req.query)
 Bonus: incorporating socket.io into an Express app with modular routing
 
-#Epilogue
+# Epilogue
 
 This is a long, substantial workshop — a server-based web app with interactive functionality. We covered a LOT of material and it may seem overwhelming right now. However, realize that we are going to hit on Express concepts time and time again throughout the curriculum; this was an introduction, which you will reinforce in workshops to come.
 
-##Express Material (high priority)
+## Express Material (high priority)
 
 The following should be your main focus in studying / review:
 
@@ -65,7 +65,7 @@ using modular sub-routers created with express.Router()
 Back-end (server) vs. front-end (client)
 Related topics
 
-###In addition, the following topics are going to play a substantial part in upcoming workshops, though we will eventually move on to slightly different solutions:
+### In addition, the following topics are going to play a substantial part in upcoming workshops, though we will eventually move on to slightly different solutions:
 
 Server-side templating with Nunjucks
 res.render
@@ -76,7 +76,7 @@ What kind of encoding forms use for request bodies
 How a web browser reacts to the response for a form request
 Ongoing practice
 
-###The following topics are ongoing practice with Node and will continue to be important:
+### The following topics are ongoing practice with Node and will continue to be important:
 
 Writing Node modules
 The require statement
