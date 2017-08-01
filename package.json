@@ -2,13 +2,16 @@
   "name": "twitter-js",
   "version": "1.0.0",
   "description": "cool tweet app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "chalk": "^2.0.1",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
   }
 }
